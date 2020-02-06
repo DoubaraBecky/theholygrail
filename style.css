@@ -1,0 +1,33 @@
+.holy-grail{
+    min-height: 100vh;
+}
+.holy-grail,
+.grail-body{
+    display: flex; 
+    flex: 1 1 auto;
+    flex-direction: column;
+    background-color: violet;
+    border: 2px solid purple;
+    max-width: 40%;
+}
+.grail-sidebar1{
+    order: -1;
+    background-color: aqua;
+    background-color: burlywood;
+    max-width: 40%;
+}
+@media (min-width: 768px){
+.grail-body{
+    flex-direction: row;
+    flex: 1;
+    background-color: white;
+    border: red solid;
+    max-width: 40%;
+}
+.hg-sidebar{
+    flex: 0 0 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    max-width: 40%;
+    }
+}
